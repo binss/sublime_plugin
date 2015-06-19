@@ -28,3 +28,8 @@ class BuildWithArgsCommand(sublime_plugin.WindowCommand):
             self.command = "python " + file_path + " "
         self.window.show_input_panel("Input args(split by SPACE):", "", self.on_get_args, None, self.on_cancel)
 
+        # extend for .note
+        elif file_type == ".note":
+            note_file = open(file_path, 'r')
+            sublime.message_dialog("aaa")
+

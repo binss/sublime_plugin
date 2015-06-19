@@ -1,0 +1,28 @@
+[{
+  "id": "preferences",
+  "children": [{
+    "id": "package-settings",
+    "children": [{
+      "caption": "SublimeBlogWriter",
+      "children": [{
+        "caption": "Settings - User",
+        "command": "open_file", "args":  
+        {  
+            "file": "${packages}/User/SublimeBlogWriter.sublime-settings"  
+        }     
+      }, {
+        "caption": "Key Bindings - Default",
+        "command": "open_file", "args":  
+        {  
+            "file": "${packages}/SublimeBlogWriter/Default.sublime-keymap"  
+        }            
+      }, {
+        "caption": "Key Bindings - User",
+        "command": "open_file", "args": 
+        {  
+            "file": "${packages}/User/SublimeBlogWriter.sublime-keymap"  
+        }
+      }]
+    }]
+  }]
+}]
